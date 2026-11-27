@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="Sidebar with a light red selected session row">
+  <!-- 窗口外框 -->
+  <rect x="32" y="32" width="576" height="236" rx="16" fill="none" stroke="#8b93a0" stroke-opacity="0.34" stroke-width="2"/>
+
+  <!-- 侧边栏分隔线 -->
+  <line x1="216" y1="34" x2="216" y2="266" stroke="#8b93a0" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- 侧边栏：未选中的会话行 -->
+  <rect x="50" y="66" width="146" height="24" rx="8" fill="#8b93a0" fill-opacity="0.34"/>
+  <rect x="50" y="132" width="146" height="24" rx="8" fill="#8b93a0" fill-opacity="0.34"/>
+  <rect x="50" y="166" width="146" height="24" rx="8" fill="#8b93a0" fill-opacity="0.34"/>
+  <rect x="50" y="200" width="146" height="24" rx="8" fill="#8b93a0" fill-opacity="0.34"/>
+  <rect x="50" y="234" width="112" height="24" rx="8" fill="#8b93a0" fill-opacity="0.22"/>
+
+  <!-- 侧边栏：被选中的会话行（浅红高亮，与插件的真实效果一致：只有底色变化） -->
+  <rect x="50" y="99" width="146" height="24" rx="8" fill="#e2435a" fill-opacity="0.3"/>
+  <rect x="62" y="108" width="86" height="6" rx="3" fill="#6f7885" fill-opacity="0.55"/>
+
+  <!-- 右侧会话区：标题与正文示意 -->
+  <rect x="248" y="62" width="228" height="10" rx="5" fill="#8b93a0" fill-opacity="0.38"/>
+  <rect x="248" y="96" width="332" height="8" rx="4" fill="#8b93a0" fill-opacity="0.22"/>
+  <rect x="248" y="118" width="304" height="8" rx="4" fill="#8b93a0" fill-opacity="0.22"/>
+  <rect x="248" y="140" width="180" height="8" rx="4" fill="#8b93a0" fill-opacity="0.22"/>
+
+  <!-- 右侧会话区：输入框示意 -->
+  <rect x="248" y="196" width="332" height="72" rx="14" fill="none" stroke="#8b93a0" stroke-opacity="0.34" stroke-width="2"/>
+  <rect x="270" y="216" width="150" height="8" rx="4" fill="#8b93a0" fill-opacity="0.22"/>
+  <circle cx="554" cy="232" r="14" fill="#8b93a0" fill-opacity="0.28"/>
+</svg>

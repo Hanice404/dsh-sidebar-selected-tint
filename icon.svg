@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="A session list whose middle row is filled light red">
+  <!-- 会话列表：上下两条为普通行 -->
+  <rect x="4.5" y="6.5" width="27" height="6.5" rx="3.25" fill="#a4acb6"/>
+  <rect x="4.5" y="23" width="27" height="6.5" rx="3.25" fill="#a4acb6"/>
+
+  <!-- 被选中的会话行：浅红填充（本插件的效果就是整行换成浅红底色） -->
+  <rect x="4.5" y="14.75" width="27" height="6.5" rx="3.25" fill="#e8a0b2"/>
+</svg>

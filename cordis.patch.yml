@@ -1,0 +1,6 @@
+# dsh-sidebar-selected-tint bundle patch
+# 插入一个空的 carrier 行，让 Loader 认识这个包（它因此出现在「插件」列表里）。
+# 真正的实现全在 client.js：向页面注入一条覆盖侧边栏选中行背景的样式表。
+- insert:
+    - id: sidebar-selected-tint
+      name: 'dsh-sidebar-selected-tint'

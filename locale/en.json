@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Sidebar selected tint",
+    "description": "Draws the selected session row in the sidebar with a light red highlight instead of the default gray one. It covers the session list and sidebar session search results; the row still opens and behaves normally. Turn the plugin off under Plugins to return to the default highlight.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "dsh-sidebar-selected-tint",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tints the selected session row in the DSH sidebar light red instead of the default gray highlight.",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "sidebar",
+    "session-list",
+    "theme",
+    "selection"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
